@@ -1,104 +1,99 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
 body{
-    background-color: #f0f0f0;
-
-}
-
-.card1,.card2,.card3 {
-    width: 325px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0px 2px 4px rgb(0 0,0,0.2);
-    margin: 10px;
-    padding: 10px;
-    justify-content: center;
-    flex-wrap: wrap;
-    display: flexbox;
     display: flex;
-    background-color:#fff;
-    margin-top: 50px;
-    gap: 00px;
-    flex-wrap: wrap;
+    background-color:#fff; 
     align-items: center;
-    height: 300px;
-    border:1px solid black;
-    flex-direction: column;
-
-
-}
-h1{
-    text-align: center;
-    margin-top: 50px;
+    justify-content: center;
+    height:100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    
    
-}
-.card_container{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    height: auto;
-}
-
-
-table{
-    width:80%;
-    border-collapse:collapse;
-    text-align: left;
-    justify-content: center;
-    margin-left: 150px;
-}
-th,tr,td{
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 10px;
 
 }
-tr:nth-child(odd){
-    background-color: rgb(158, 183, 199);
-}
-h3{
-    text-align: center;
-    justify-content: center;
-     margin-bottom: 0.5px;
-}
-button:hover{
-    background-color: rgb(53, 125, 226);
-    color:black;
-    box-shadow: 0px 4px 8px rgb(0,0,0,0.3);
-    border-radius: 8px;
-}
-h2{
-    margin-top: 20px;
-   text-align: center;
-   margin-right: 90px;
-}
-img{
-    flex-direction:column;
-    justify-content: center;
-    border-radius: 150%;
+.login-containar{
+    width: 400px;
+    height:400px;
+    border-radius: 10px;
     background-color:#fff;
+    padding:40px,50px;
+    border: solid black;
+    text-align:center;
+    margin: right 20px;
+  
 }
-th{
-    background-color: rgb(8, 89, 176);
-}
-
-p{
+ h1{
+    padding-left: 40px;
+    text-shadow: #fff;
     text-align: center;
 }
 button{
-    background-color: rgb(158, 183, 199);
-    height: 30px;
-    width: 80px;
+    background-color:rgb(37, 106, 202);
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    
+    
 }
-.card2 button{
-    height: 40px;
 
+input::placeholder{
+    height: 150px;
+    width: 900px;
+    padding: 5px;
+    font-size: medium;
+    
 }
-.card1:hover,.card2:hover,.card3:hover{
-    background-color: rgb(160, 200, 203);
+input[type="password","username"]{
+    width:320px;
+    height: 20px;
 }
+.sign-container{
+    width: 400px;
+    height:550px;
+    border-radius: 10px;
+    background-color:#fff;
+    padding:40px,50px;
+    border: solid black;
+    text-align: center;
+    margin: right 20px;
+    text-align:left;
+    padding-left: 40px;
+    display: block;
+    
+}
+.btn{
+    height: 20px;
+    background-color: green;
+    text-align: center;
+    box-sizing: border-box;
+    width: 350px;
+    
+}
+input[type="fullName"]{
+    width: 100%;
+    height: 20px;
+}
+input{
+    width: 90%;
+}
+b{
+
+    margin-right: 280px;
+}
+select{
+    margin-bottom: 10px;
+    padding: 3px;
+    width: 90%;
+    box-sizing: border-box;
+}
+.remember{
+    display: inline-flex;
+    align-items: center;
+    margin: 10px;
+}
+.remember input{
+    margin-right: 1px;
+}
+
+
+
+
